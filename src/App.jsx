@@ -22,30 +22,30 @@ const App = () => {
       </header>
       <main className='mt-12 translate-y-7'>
         <section className='organizer grid gap-4'>
-          <div className='savings border-double border-2 border-slate-600'>
+          <div className='savings border-double border-2 border-slate-600 p-5'>
             1
           </div>
-          <div className='investments border-double border-2 border-slate-600'>
+          <div className='investments border-double border-2 border-slate-600 p-5'>
             2
           </div>
-          <div className='actions border-double border-2 border-slate-600'>
-            <div>
+          <div className='actions border-double border-2 border-slate-600 p-5'>
+            <div className='bg-slate-700 p-4 text-white text-center rounded m-2'>
               <span>Expense</span>
             </div>
-            <div>
+            <div className='bg-slate-700 p-4 text-white text-center rounded m-2'>
               <span>Investment</span>
             </div>
-            <div>
+            <div className='bg-slate-700 p-4 text-white text-center rounded m-2'>
               <span>Savings</span>
             </div>
-            <div>
+            <div className='bg-slate-700 p-4 text-white text-center rounded m-2'>
             <span>Earnings</span>
             </div>
           </div>
-          <div className='expense border-double border-2 border-slate-600'>
+          <div className='expense border-double border-2 border-slate-600 p-5'>
             4
           </div>
-          <div className='earning border-double border-2 border-slate-600'>
+          <div className='earning border-double border-2 border-slate-600 p-5'>
             5
           </div>
         </section>

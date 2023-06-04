@@ -17,6 +17,7 @@
 }
 .actions {
   grid-area: actions;
+  display: grid;
 }
 .expense {
   grid-area: expense;
